@@ -2,7 +2,9 @@ package com.tw;
 
 public class MultiplicationTable {
     public String create(int start, int end) {
-        return null;
+        return isValid(start, end) && isInRange(start) && isInRange(end)
+                ? start + "*" + end + "=" + (start*end)
+                : null;
     }
 
     public Boolean isValid(int start, int end) {
@@ -10,6 +12,7 @@ public class MultiplicationTable {
     }
 
     public Boolean isInRange(int number) {
+
         return number>=1 && number<=1000;
     }
 
@@ -21,7 +24,7 @@ public class MultiplicationTable {
     public String generateTable(int start, int end) {
         String combineLine = new String();
         for(int i=start; i<=end; i++){
-            combineLine = combineLine + generateSingleExpression(i, end) + System.lineSeparator();
+            combineLine = combineLine + generateLine(start, i) + System.lineSeparator();
         }
         return combineLine.trim();
     }

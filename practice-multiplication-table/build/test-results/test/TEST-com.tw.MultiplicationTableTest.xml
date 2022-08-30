@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tw.MultiplicationTableTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-30T08:51:25" hostname="MNLITA02-W10" time="0.013">
+<testsuite name="com.tw.MultiplicationTableTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-30T08:56:16" hostname="MNLITA02-W10" time="0.026">
   <properties/>
-  <testcase name="should_return_false_when_validate_given_end_1001()" classname="com.tw.MultiplicationTableTest" time="0.013"/>
+  <testcase name="should_return_multiplication_expression_when_multiply_given_multiplicand_2_and_multiplier_3()" classname="com.tw.MultiplicationTableTest" time="0.026"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -23,7 +23,11 @@ public class MultiplicationTable {
     }
 
     public String generateLine(int start, int row) {
-        return null;
+        String expressionLine = new String();
+        for(int i=start; i<=row; i++){
+            expressionLine = expressionLine + generateSingleExpression(i, row) + "  ";
+        }
+        return expressionLine.trim();
     }
 
     public String generateSingleExpression(int multiplicand, int multiplier) {

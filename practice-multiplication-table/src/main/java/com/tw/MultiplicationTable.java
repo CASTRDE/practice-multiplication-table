@@ -19,7 +19,11 @@ public class MultiplicationTable {
     }
 
     public String generateTable(int start, int end) {
-        return null;
+        String combineLine = new String();
+        for(int i=start; i<=end; i++){
+            combineLine = combineLine + generateSingleExpression(i, end) + System.lineSeparator();
+        }
+        return combineLine.trim();
     }
 
     public String generateLine(int start, int row) {

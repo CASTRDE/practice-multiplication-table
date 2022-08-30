@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tw.MultiplicationTableTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-30T13:25:46" hostname="MNLITA02-W10" time="0.014">
+<testsuite name="com.tw.MultiplicationTableTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-30T13:27:04" hostname="MNLITA02-W10" time="0.022">
   <properties/>
-  <testcase name="should_return_null_when_multiply_given_start_number_2_end_number_1()" classname="com.tw.MultiplicationTableTest" time="0.014"/>
+  <testcase name="should_return_null_when_multiply_given_start_number_2_end_number_1()" classname="com.tw.MultiplicationTableTest" time="0.022"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
